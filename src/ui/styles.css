@@ -200,7 +200,7 @@ select {
   display: flex; flex-direction: column; justify-content: center; padding: 0 10px 0 4px; min-width: 104px;
   border-right: 1px solid var(--line);
 }
-.hud-round b { font-family: var(--display); font-weight: 400; font-size: 18px; letter-spacing: 0.04em; }
+.hud-round b { white-space: nowrap; font-family: var(--display); font-weight: 400; font-size: 18px; letter-spacing: 0.04em; }
 .hud-round span { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; white-space: nowrap; }
 .pcard {
   flex: 1 1 0; min-width: 190px; display: flex; gap: 8px; align-items: center; padding: 5px 10px 5px 6px;

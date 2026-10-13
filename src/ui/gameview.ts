@@ -272,10 +272,7 @@ export class GameView {
       case 'development': {
         const turn = ph.turn;
         const mine = turn.playerId === me;
-        if (!mine) {
-          if (confirm && turn.stage === 'intro') this.toggleFast();
-          break;
-        }
+        if (!mine) break;
         if (turn.stage === 'intro') {
           if (confirm) { this.ready(); audio.sfx('turn'); }
           break;
