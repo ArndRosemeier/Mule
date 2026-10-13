@@ -1,0 +1,215 @@
+{
+ "generatedBy": "tools/assets/generate.py + process.py",
+ "files": {
+  "buildings/assay.png": {
+   "width": 400,
+   "height": 410,
+   "bytes": 213103
+  },
+  "buildings/corral.png": {
+   "width": 400,
+   "height": 270,
+   "bytes": 171809
+  },
+  "buildings/crystite.png": {
+   "width": 400,
+   "height": 378,
+   "bytes": 217010
+  },
+  "buildings/energy.png": {
+   "width": 400,
+   "height": 419,
+   "bytes": 277721
+  },
+  "buildings/food.png": {
+   "width": 400,
+   "height": 328,
+   "bytes": 233491
+  },
+  "buildings/land.png": {
+   "width": 400,
+   "height": 388,
+   "bytes": 188642
+  },
+  "buildings/pub.png": {
+   "width": 400,
+   "height": 314,
+   "bytes": 195408
+  },
+  "buildings/smithore.png": {
+   "width": 400,
+   "height": 319,
+   "bytes": 196314
+  },
+  "events/acidrain.webp": {
+   "width": 768,
+   "height": 432,
+   "bytes": 76506
+  },
+  "events/fire.webp": {
+   "width": 768,
+   "height": 432,
+   "bytes": 91162
+  },
+  "events/meteorite.webp": {
+   "width": 768,
+   "height": 432,
+   "bytes": 99940
+  },
+  "events/pests.webp": {
+   "width": 768,
+   "height": 432,
+   "bytes": 155698
+  },
+  "events/pirates.webp": {
+   "width": 768,
+   "height": 432,
+   "bytes": 82766
+  },
+  "events/quake.webp": {
+   "width": 768,
+   "height": 432,
+   "bytes": 113214
+  },
+  "events/radiation.webp": {
+   "width": 768,
+   "height": 432,
+   "bytes": 101686
+  },
+  "events/sunspot.webp": {
+   "width": 768,
+   "height": 432,
+   "bytes": 95828
+  },
+  "icons/crystite.png": {
+   "width": 128,
+   "height": 128,
+   "bytes": 26845
+  },
+  "icons/energy.png": {
+   "width": 128,
+   "height": 128,
+   "bytes": 25441
+  },
+  "icons/food.png": {
+   "width": 128,
+   "height": 128,
+   "bytes": 29623
+  },
+  "icons/money.png": {
+   "width": 128,
+   "height": 128,
+   "bytes": 22026
+  },
+  "icons/smithore.png": {
+   "width": 128,
+   "height": 128,
+   "bytes": 26472
+  },
+  "music/auction.mp3": {
+   "duration": 98.82,
+   "bytes": 1383907,
+   "loop": true
+  },
+  "music/game.mp3": {
+   "duration": 182.2,
+   "bytes": 2551267,
+   "loop": true
+  },
+  "music/title.mp3": {
+   "duration": 179.59,
+   "bytes": 2514695,
+   "loop": false
+  },
+  "species/bonzoid.png": {
+   "width": 240,
+   "height": 320,
+   "bytes": 100274
+  },
+  "species/flapper.png": {
+   "width": 186,
+   "height": 320,
+   "bytes": 87792
+  },
+  "species/gollumer.png": {
+   "width": 205,
+   "height": 320,
+   "bytes": 76634
+  },
+  "species/humanoid.png": {
+   "width": 109,
+   "height": 320,
+   "bytes": 57951
+  },
+  "species/leggite.png": {
+   "width": 188,
+   "height": 320,
+   "bytes": 63828
+  },
+  "species/mechtron.png": {
+   "width": 107,
+   "height": 320,
+   "bytes": 59162
+  },
+  "species/packer.png": {
+   "width": 226,
+   "height": 320,
+   "bytes": 137680
+  },
+  "species/spheroid.png": {
+   "width": 262,
+   "height": 320,
+   "bytes": 121936
+  },
+  "sprites/mule.png": {
+   "width": 256,
+   "height": 351,
+   "bytes": 115828
+  },
+  "sprites/mule_walk.png": {
+   "width": 321,
+   "height": 351,
+   "bytes": 119889
+  },
+  "sprites/wampus.png": {
+   "width": 146,
+   "height": 200,
+   "bytes": 57332
+  },
+  "terrain/mountain1.png": {
+   "width": 512,
+   "height": 418,
+   "bytes": 258390
+  },
+  "terrain/mountain2.png": {
+   "width": 512,
+   "height": 354,
+   "bytes": 197785
+  },
+  "terrain/mountain3.png": {
+   "width": 512,
+   "height": 358,
+   "bytes": 209672
+  },
+  "terrain/plain.png": {
+   "width": 512,
+   "height": 512,
+   "bytes": 390093
+  },
+  "terrain/river.png": {
+   "width": 512,
+   "height": 512,
+   "bytes": 510829
+  },
+  "terrain/town.png": {
+   "width": 512,
+   "height": 512,
+   "bytes": 301878
+  },
+  "title.webp": {
+   "width": 1920,
+   "height": 1080,
+   "bytes": 220350
+  }
+ }
+}
