@@ -1,0 +1,22 @@
+{
+  "name": "mule",
+  "version": "0.1.0",
+  "description": "A faithful TypeScript recreation of the classic M.U.L.E. with a modern UI",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "5.9",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4"
+  },
+  "private": true,
+  "type": "module"
+}
