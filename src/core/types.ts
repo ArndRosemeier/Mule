@@ -224,6 +224,8 @@ export interface GameState {
   events: GameEvent[];
   eventSeq: number;
   history: RoundHistory[];
+  /** Most recent production phase, for the auction status boards. */
+  lastReport: ProductionReport | null;
   /** Ms of game time elapsed, for animation sync. */
   time: number;
 }

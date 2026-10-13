@@ -280,8 +280,8 @@ export function aiTrade(state: GameState, a: GoodsAuction): void {
 export function landValuation(state: GameState, p: Player, plot: Plot): number {
   const roundsLeft = state.config.rounds - state.round + 1;
   const perRound = bestUse(state, p, plot).value * 0.6;
-  const want = 200 + perRound * Math.min(roundsLeft, 6);
-  const cap = p.ai === 'hard' ? 0.6 : p.ai === 'normal' ? 0.45 : 0.3;
+  const want = 160 + perRound * Math.min(roundsLeft, 5) * 0.6;
+  const cap = p.ai === 'hard' ? 0.4 : p.ai === 'normal' ? 0.3 : 0.2;
   return Math.min(want, p.money * cap);
 }
 

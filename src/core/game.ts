@@ -49,6 +49,7 @@ export function createGame(setups: PlayerSetup[], opts: NewGameOptions): GameSta
     events: [],
     eventSeq: 0,
     history: [],
+    lastReport: null,
     time: 0,
   };
   startRound(state);
@@ -174,6 +175,7 @@ function startProduction(state: GameState): void {
   const chance = state.config.difficulty === 'beginner' ? COLONY_EVENT_CHANCE * 0.6 : COLONY_EVENT_CHANCE;
   const event = rollColonyEvent(state, chance);
   const report = runProduction(state, event);
+  state.lastReport = report;
   if (event) emit(state, { type: 'colony', event });
   setPhase(state, { kind: 'production', report, colonyEvent: event, ready: [] });
 }
