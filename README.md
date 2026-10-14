@@ -1,5 +1,7 @@
 # M.U.L.E. — Colony of Irata
 
+Play it at https://arndrosemeier.github.io/Mule/
+
 A faithful TypeScript remake of the 1983 classic M.U.L.E., with generated
 painted art, an original soundtrack and a modern UI. Single player against
 three computer colonists; the engine is built for multiplayer later.
