@@ -1,0 +1,6 @@
+{
+  "title": "M.U.L.E.",
+  "tagline": "A faithful TypeScript recreation of the classic 1983 Atari game M.U.L.E., with a modern UI.",
+  "tags": ["game", "strategy", "retro", "multiplayer"],
+  "screenshot": "/shots/mule.webp"
+}
